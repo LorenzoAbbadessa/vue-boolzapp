@@ -154,7 +154,7 @@ createApp({
                     },
                     {
                         date: '10/01/2020 15:50:00',
-                        message: 'No, l\'ho già mangiata ieri, ordiniamo sushi!',
+                        message: 'No, lho già mangiata ieri, ordiniamo sushi!',
                         status: 'sent'
                     },
                     {
@@ -167,7 +167,10 @@ createApp({
         ]
         }
     },
-    methods(){
+    methods: {
+        nomeF :function(){
+            console.log(this.contacts)
+        }
         
     }
 }).mount(`#app`)
